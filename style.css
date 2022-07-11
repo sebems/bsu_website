@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(170, 117, 92);
+}
+
+nav {
+    background-color: #F7CCAC;
+}
+
+/* IDS */
+
+#mission {
+    background-color: #F7CCAC;
+}
+
+#nav-links {
+    display: inline-block;
+}
+
+#top-of-home-page {
+
+}
+
+/* Classes */
+
+* {
+
+}
