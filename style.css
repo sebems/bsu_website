@@ -4,6 +4,7 @@ body {
 
 nav {
     background-color: #F7CCAC;
+
 }
 
 /* IDS */
@@ -16,15 +17,29 @@ nav {
     display: inline-block;
 }
 
-#top-of-home-page {
+#top-of-home-page {}
 
+#leadership {
+    margin-left: 10px;
 }
+
 
 /* Classes */
 
-* {
-
+.leader-profile {
+    border-radius: 100%;
+    width: 15rem;
+    height: 15rem;
+    background-color: #C69B7B;
+    display: inline-block;
+    margin: 0 10rem;
 }
+
+.leader-profile:hover {
+    background-color: #3A3845;
+}
+
+* {}
 
 /* 
 color scheme #1
