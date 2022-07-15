@@ -1,20 +1,20 @@
+/* Variables */
+
+
 body {
-    background-color: rgb(170, 117, 92);
+    background-color: #ffbd59;
+    font-family: 'Gilda Display', serif;
 }
 
-nav {
-    background-color: #F7CCAC;
-
-}
 
 /* IDS */
 
 #mission {
-    background-color: #F7CCAC;
+    /* background-color: #F7CCAC; */
 }
 
 #nav-links {
-    display: inline-block;
+    display: block;
 }
 
 #top-of-home-page {}
@@ -25,6 +25,15 @@ nav {
 
 
 /* Classes */
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #574131 !important;
+    border-color: #574131 !important;
+}
+
+.fa-instagram, .fa-envelope {
+    color: #574131;
+}
 
 .leader-profile {
     border-radius: 100%;
@@ -38,8 +47,6 @@ nav {
 .leader-profile:hover {
     background-color: #3A3845;
 }
-
-* {}
 
 /* 
 color scheme #1
@@ -58,6 +65,18 @@ color scheme #3
 #402218
 #865439
 #C68B59
+rgb(170, 117, 92);
 #D7B19D
+
+USE Gilda Display from Google Font
+
+Button Colors
+#574131
+
+Text Color
+#42322c
+
+Background Color
+#ffbd59
 
 */

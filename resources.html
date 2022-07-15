@@ -2,6 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
         <title>Resources</title>
     </head>
     <body>
@@ -9,12 +13,24 @@
     
         <!-- navigation links -->
         <nav>
-            <ul>
-                <a href="index.html"><li>Home</li></a>
-                <a href="about.html"><li>About Us</li></a>
-                <a href="resources.html"><li>Resources</li></a>
-                <a href="#contact-us"><li>Contact Us</li></a>
-            </ul>
+            <div id="nav-links" class="btn-group gap-1">
+                <a class="btn btn-primary" href="index.html" role="button"> Home </a>
+                <a class="btn btn-primary" href="about.html" role="button"> About Us </a>
+                <a class="btn btn-primary" href="#" role="button"> Leadership </a>    
+                
+                <!-- <a class="btn btn-dark" href="#" role="button"> Events </a>     -->
+                <a class="btn btn-primary" href="resources.html" role="button"> Resources </a>
+                <!-- <a class="btn btn-primary" href="#" role="button"> Contact Us </a> -->
+
+            </div>
         </nav>
+
+        <div class="btn-group-vertical w-25">
+            <a class="btn btn-primary" href="#" role="button"> Food Spots </a>
+            <a class="btn btn-primary" href="#" role="button"> Study Spots </a>
+            <a class="btn btn-primary" href="#" role="button"> Hair Care </a>
+            <a class="btn btn-primary" href="#" role="button"> Wellness </a>
+            <a class="btn btn-primary" href="#" role="button"> Get Involved </a>
+        </div>
     </body>
 </html>
