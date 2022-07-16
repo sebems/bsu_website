@@ -19,10 +19,13 @@ body {
 
 #top-of-home-page {}
 
-#leadership {
-    margin-left: 10px;
+.leader-name, .leader-profile, .leader-role {
+    display: inline;
 }
 
+#welcome {
+    text-transform: uppercase;
+}
 
 /* Classes */
 
@@ -33,15 +36,6 @@ body {
 
 .fa-instagram, .fa-envelope {
     color: #574131;
-}
-
-.leader-profile {
-    border-radius: 100%;
-    width: 15rem;
-    height: 15rem;
-    background-color: #C69B7B;
-    display: inline-block;
-    margin: 0 10rem;
 }
 
 .leader-profile:hover {
