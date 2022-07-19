@@ -9,6 +9,13 @@ body {
 
 /* IDS */
 
+#about-paragraph {
+    float:right;
+    padding: 2rem;
+    text-align: right;
+    width: 30rem;
+    margin-bottom: 100px;
+}
 
 #nav-links {
     display: block;
@@ -19,6 +26,10 @@ body {
 
 .leader-name, .leader-profile, .leader-role {
     display: inline;
+}
+
+#resilience-png {
+    width: 20%;
 }
 
 #to-calvin {
