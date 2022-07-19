@@ -9,22 +9,34 @@ body {
 
 /* IDS */
 
-#mission {
-    /* background-color: #F7CCAC; */
-}
 
 #nav-links {
     display: block;
-}
+    /* display: inline-block; */
 
-#top-of-home-page {}
+    float: right;
+}
 
 .leader-name, .leader-profile, .leader-role {
     display: inline;
 }
 
+#to-calvin {
+    text-transform: uppercase;
+}
+
+#top-of-home-page {
+    /* background-color: #3A3845; */
+}
+
 #welcome {
     text-transform: uppercase;
+    font-size: 10rem;
+}
+
+#welcome-text {
+    text-align: center;
+    padding: 15% 0;
 }
 
 /* Classes */
