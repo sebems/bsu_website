@@ -1,8 +1,11 @@
 /* Variables */
 
+* {
+    text-align: center;
+}
 
 body {
-    background-color: #ffbd59;
+    background-color: #d5b796;
     font-family: 'Gilda Display', serif;
 }
 
@@ -10,9 +13,7 @@ body {
 /* IDS */
 
 #about-paragraph {
-    float:right;
     padding: 2rem;
-    text-align: right;
     width: 30rem;
     margin-bottom: 100px;
 }
@@ -28,9 +29,6 @@ body {
     display: inline;
 }
 
-#resilience-png {
-    width: 20%;
-}
 
 #to-calvin {
     text-transform: uppercase;
@@ -94,6 +92,6 @@ Text Color
 #42322c
 
 Background Color
-#ffbd59
+#d5b796
 
 */
