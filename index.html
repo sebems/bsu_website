@@ -21,39 +21,33 @@
     </head>
     <body>
         <header id="top-of-home-page">
-            <h3 style="display: inline"> Calvin.BSU </h3>
-
-            <!-- Contact Information -->
-            <div id="contact-us" style="display: inline">
-                <a href="https://www.instagram.com/calvin.bsu/"><i class="fa-brands fa-instagram fa-xl"></i></a>
-                <a href="mailto:"><i class="fa-solid fa-envelope fa-xl"></i></a>
-            </div>
-
             <!-- navigation links -->
             <nav>
-                <div id="nav-links" class="d-grid w-25 gap-1">
-                    <a class="btn btn-primary" href="#top-of-home-page" role="button"> Home </a>
-                    <a class="btn btn-primary" href="#about" role="button"> About Us </a>
-                    <a class="btn btn-primary" href="#leadership" role="button"> Leadership </a>    
+                <div id="nav-links" class="btn-group-horizontal gap-1">
+                    <a class="btn btn-primary btn-lg" href="#top-of-home-page" role="button"> Home </a>
+                    <a class="btn btn-primary btn-lg" href="#about" role="button"> About Us </a>
+                    <a class="btn btn-primary btn-lg" href="#leadership" role="button"> Leadership </a>    
                     
                     <!-- <a class="btn btn-dark" href="#" role="button"> Events </a>     -->
-                    <a class="btn btn-primary" href="#resources" role="button"> Resources </a>
+                    <a class="btn btn-primary btn-lg" href="#resources" role="button"> Resources </a>
                 </div>
             </nav>
 
-            <img style="position: absolute; top: 13rem; opacity: 0.5;" src="site-mockup/image-assets/3.png" alt="">
             <div id="welcome-text">
-                <h1 id="welcome">Welcome </h1>
-                <br>
-                <h1 id="to-calvin">to Calvin BSU</h1>    
-                <br>
+                <h1 id="welcome" class="text-pop-up-top">Welcome </h1>
+                <h1 id="to-calvin" class="tracking-in-expand-fwd-bottom">to Calvin Black Student Union</h1>        
             </div>
+                <div style="background-color: #574131">
+                    <img src="site-mockup/image-assets/3.png" alt="">
+                </div>
+
+
         </header>
 
         <main>
-            <div id="mission">
-                <h3>Our Mission</h3>
-                <p style="padding: 5rem">
+            <div>
+                <h1>Our Mission</h1>
+                <p id="mission" style="padding: 5rem">
                     BSU is a student led organization that provides resources for students of African-descent 
                     and allies to close the educational gap on Calvin’s campus as well as the Grand Rapids area. <br/>
                     In order to achieve this goal, we unite and support Black students on campus. 
@@ -68,78 +62,146 @@
             <div id="about">
                 <h1>About Us</h1>
 
-                <p id="about-paragraph">
+                <h3 id="about-paragraph">
                     Here at Calvin, a black student union
                     has long been needed and here we 
                     provide a space for fellowship, 
                     mentorship and representation of 
                     alumni so you can see the limitless 
                     possibilities.
-                </p>
+                </h3>
+                <img style="background-color:#d5b796 ;" src="site-mockup/image-assets/1.png" alt="">
             </div>
-    
     
             <div id="leadership">
-                <h3>Leadership</h3>
-    
-                <div>
-                    <br>
-                    <div>
-                        <button class="btn btn-primary leader-role">President of Administration</button>
-                        <img class="leader-profile" src="..." alt="" >
-                        <h3 class="leader-name">India Bond</h3>
+                <h1 id="exec-disp">Executive Board</h1>
+
+                <!-- <img src="site-mockup/image-assets/2.png" alt=""> -->
+                <div id="myNav" class="overlay">
+
+                    <!-- Button to close the overlay navigation -->
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  
+                    <!-- Overlay content -->
+                    <div class="overlay-content">
+                        <h1 style="color: white;">BLAH</h1>
                     </div>
-                    <div>
-                        <button class="btn btn-primary leader-role">Vice President of Administration</button>
-                        <img class="leader-profile" src="..." alt="" >
-                        <h3 class="leader-name">Joy Umutoni</h3>
+                  
+                  </div>
+                  
+                  <!-- Use any element to open/show the overlay navigation menu -->
+                <div class="card-group">
+                
+                    <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="site-mockup/image-assets/fist.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">India Bond</h5>
+                          <p class="card-text">President of Adminstrations</p>
+                          <span onclick="openNav()" class="btn btn-primary">See More</span>
+                        </div>
                     </div>
-                    <div>
-                        <button class="btn btn-primary leader-role">President of Communications</button>
-                        <img class="leader-profile" src="..." alt="" >
-                        <h3 class="leader-name">Sirr Favors</h3>
+                    <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="site-mockup/image-assets/fist.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Sirr Favors</h5>
+                          <p class="card-text">President of Communications</p>
+                          <a onclick="openNav()" class="btn btn-primary">See More</a>
+                        </div>
                     </div>
-                    <div>
-                        <button class="btn btn-primary leader-role">Vice President of Communications</button>
-                        <img class="leader-profile" src="..." alt="" >
-                        <h3 class="leader-name">Simone DeMan</h3>
+                    <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="site-mockup/image-assets/fist.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Simone De Man</h5>
+                          <p class="card-text">Vice-President of Communications</p>
+                          <a onclick="openNav()" class="btn btn-primary">See More</a>
+                        </div>
                     </div>
-                    <div>
-                        <button class="btn btn-primary leader-role">Chief Financial Officer</button>
-                        <img class="leader-profile" src="..." alt="" >
-                        <h3 class="leader-name">Stephan Bovell</h3>
+                    <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="site-mockup/image-assets/fist.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Joy Umutoni</h5>
+                          <p class="card-text">Vice-President of Adminstrations</p>
+                          <a onclick="openNav()" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="site-mockup/image-assets/fist.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Stephan Bovell</h5>
+                          <p class="card-text">Chief Financial Officer</p>
+                          <a onclick="openNav()" class="btn btn-primary">See More</a>
+                        </div>
                     </div>
                 </div>
+
+                <h1 id="leader-disp">Leadership Council</h1>
+
+                <div class="card-group">
+                
+                    <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="site-mockup/image-assets/fist.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Michelle Charles</h5>
+                          <p class="card-text">Publicity and Marketing</p>
+                          <span onclick="openNav()" class="btn btn-primary">See More</span>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="site-mockup/image-assets/fist.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">William Toomey</h5>
+                          <p class="card-text">Programming Director</p>
+                          <a onclick="openNav()" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="site-mockup/image-assets/fist.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Vacant</h5>
+                          <p class="card-text">Mulitcultural Outreach Director</p>
+                          <a onclick="openNav()" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="site-mockup/image-assets/fist.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Vacant</h5>
+                          <p class="card-text">Senior Advisor</p>
+                          <a onclick="openNav()" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="site-mockup/image-assets/fist.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Vacant</h5>
+                          <p class="card-text">Freshman Representative</p>
+                          <a onclick="openNav()" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+                
+                <!-- <img style="float: right; " src="site-mockup/image-assets/2.png" alt=""> -->
 
-            <div id="sponsors">
-                <h3>Sponsors</h3>
-                <ul>
-                    <!-- Insert Images of sponsors/affliates -->
-                    <li>Calvin University</li>
-                </ul>
-            </div>
-
-            <!-- <div id="get-involved">
-                <h3>Get Involved</h3>
-
-                 Affinity Groups 
-            </div> -->
-
-            <div id="resources">
-                <h1>Resources</h1>
+            <div id="resources" style="background-color: #574131">
+                <h1 style="color: white">Resources</h1>
         
+                <br>
 
-                <div class="btn-group-horizontal w-25">
-                    <a class="btn btn-primary" href="#" role="button"> Food Spots </a>
-                    <a class="btn btn-primary" href="#" role="button"> Study Spots </a>
-                    <a class="btn btn-primary" href="#" role="button"> Hair Care </a>
-                    <a class="btn btn-primary" href="#" role="button"> Wellness </a>
-                    <a class="btn btn-primary" href="#" role="button"> Get Involved </a>
+                <div class="btn-group-horizon btn-lg" id="res-btn">
+                    <a class="btn btn-primary btn-lg" href="#" role="button"> Food Spots <i class="fa-solid fa-burger"></i></a>
+                    <a class="btn btn-primary btn-lg" href="#" role="button"> Study Spots <i class="fa-solid fa-book"></i></a>
+                    <a class="btn btn-primary btn-lg" href="#" role="button"> Hair Care <i class="fa-solid fa-scissors"></i></a>
+                    <a class="btn btn-primary btn-lg" href="#" role="button"> Wellness <i class="fa-solid fa-spa"></i></a>
+                    <a class="btn btn-primary btn-lg" href="#" role="button"> Get Involved <i class="fa-solid fa-hand-holding-hand"></i></a>
                 </div>
+                <img style="opacity: 0.5; z-index: 1;" src="site-mockup/image-assets/2.png" alt="">
+
             </div>  
 
             <a class="btn btn-outline-dark" href="#top-of-home-page" role="button"> <i class="fa-solid fa-up-long"></i> </a>
+
 
             <!-- Copyright -->
             <p>Copyright &#169 2022</p>
