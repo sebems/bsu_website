@@ -25,7 +25,7 @@
               transform-origin: 50% 50%;
       text-shadow: 0 1px 0 #574131, 0 2px 0 #574131, 0 3px 0 #574131, 0 4px 0 #574131, 0 5px 0 #574131, 0 6px 0 #574131, 0 7px 0 #574131, 0 8px 0 #574131, 0 9px 0 #574131, 0 50px 30px rgba(0, 0, 0, 0.3);
     }
-  }
+  } 
   @keyframes text-pop-up-top {
     0% {
       -webkit-transform: translateY(0);
@@ -104,13 +104,29 @@ body {
 /* IDS */
 
 #about {
-    background-color: #574131;
+    background-color: #a17c58;
     color: #d5b796;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+#about2 {
+  background-color: #574131;
+  color: #d5b796;
+  position: relative;
+  padding-bottom: 100px;
 }
 
 #about-paragraph {
     padding: 10rem;
     /* width: 50%; */
+}
+
+#end-crest {
+  opacity: 0.5; 
+  z-index: 1;
+  width: 10%;
+  /* margin: 0; */
 }
 
 #exec-disp {
@@ -124,7 +140,7 @@ body {
 }
 
 #leadership {
-    margin-bottom: 12rem;
+    /* margin-bottom: 12rem; */
 }
 
 #mission {
@@ -142,10 +158,10 @@ body {
     position: relative;
 }
 
-#res-btn {
-    position: absolute;
-    top: 50%;
-    left: 30%;
+.res-btn {
+    /* position: absolute; */
+    /* top: 50%;/ */
+    /* left: 30%; */
 }
 
 .text-pop-up-top {
@@ -162,22 +178,101 @@ body {
     display: inline;
 }
 
+/* Styling the area of the slides */
+#slideshow {
+  overflow: hidden;
+  height: 50%;
+  width: 20%;
+  margin: 0 auto;
+}
+ 
+/* Style each of the sides
+with a fixed width and height */
+.slide {
+  float: left;
+  height: 50%;
+  width: 20%;
+  padding: 100px;
+}
+ 
+/* Add animation to the slides */
+.slide-wrapper {
+   
+/* Calculate the total width on the
+  basis of number of slides */
+  width: calc(100% * 5);
+ 
+/* Specify the animation with the
+  duration and speed */
+  animation: slide 10s ease infinite;
+}
+ 
+/* Set the background color
+of each of the slides */
+.slide:nth-child(1) {
+  background: #C69B7B;
+}
+ 
+.slide:nth-child(2) {
+  background: #574131;
+}
+ 
+.slide:nth-child(3) {
+  background: #C69B7B;
+}
+ 
+.slide:nth-child(4) {
+  background: #574131;
+}
+
+.slide:nth-child(5) {
+  background: #C69B7B;
+}
+ 
+/* Define the animation
+for the slideshow */
+@keyframes slide {
+   
+/* Calculate the margin-left for
+  each of the slides */
+  10% {
+    margin-left: 0px;
+  }
+ 
+  30% {
+    margin-left: calc(-100% * 1);
+  }
+ 
+  50% {
+    margin-left: calc(-100% * 2);
+  }
+ 
+  70% {
+    margin-left: calc(-100% * 3);
+  }
+
+  90% {
+    margin-left: calc(-100% * 4);
+  }
+}
 
 #to-calvin {
     text-transform: uppercase;
 }
 
 #top-of-home-page {
-    /* background-color: #3A3845; */
+    background-color: #212529;
+    padding-bottom: 15%;
 }
 
 #welcome {
     text-transform: uppercase;
-    font-size: 15rem;
+    font-size: 5rem;
+    color: white;
 }
 
 #welcome-text {
-    padding: 15%;
+    padding: 20% 15%;
 }
 
 /* Classes */
