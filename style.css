@@ -122,6 +122,11 @@ body {
     /* width: 50%; */
 }
 
+#vision-paragraph {
+    padding: 10rem;
+    color: #212529;
+}
+
 #end-crest {
   opacity: 0.5; 
   z-index: 1;
@@ -145,6 +150,7 @@ body {
 
 #mission {
     font-size: large;
+    background-color: #574131;
 }
 
 #nav-links {
@@ -329,6 +335,25 @@ for the slideshow */
     color: #f1f1f1;
   }
   
+  .overlay p {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+
+  .overlay p:hover {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #1C0A00;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+    background-color: lavender;
+  }
+
   /* Position the close button (top right corner) */
   .overlay .closebtn {
     position: absolute;
