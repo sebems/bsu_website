@@ -5,6 +5,7 @@
 
         <!-- Bootstrap CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="site-mockup/image-assets/fist.png" type="image/x-icon">
@@ -363,39 +364,55 @@
             <div id="resources" style="background-color: #574131; margin-bottom: 1%">
                 <h1 style="color: white">Resources</h1>
         
-                <div id="slideshow">
-                    <div class="slide-wrapper">
-                         
-                    <!-- Define each of the slides
-                     and write the content -->
-                      
-                        <div class="slide">
-                            <h1 class="slide-number">
-                                Hair Care
-                            </h1>
-                        </div>
-                        <div class="slide">
-                            <h1 class="slide-number">
-                                Wellness
-                            </h1>
-                        </div>
-                        <div class="slide">
-                            <h1 class="slide-number">
-                                Get Involved
-                            </h1>
-                        </div>
-                        <div class="slide">
-                            <h1 class="slide-number">
-                                Food Spots
-                            </h1>
-                        </div>
-                        <div class="slide">
-                            <h1 class="slide-number">
-                                Study Spots
-                            </h1>
-                        </div>
+                <div id="carouselExampleIndicators" class="carousel slide w-100 p-3 position-relative bottom-0 start-50 translate-middle-x" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
                     </div>
-                </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active slide-block">
+                        <h1>Hair Care</h1>
+                        <a style="color: white;" href=""><i class="fa-solid fa-scissors fa-5x"></i></a>
+                      </div>
+                      <div class="carousel-item slide-block">
+                        <h1>Wellness</h1>
+                        <a style="color: white;" href=""><i class="fa-solid fa-spa fa-5x"></i></a>
+                      </div>
+                      <div class="carousel-item slide-block">
+                        <h1>
+                            Apply Today
+                        </h1>
+                        <a style="color: white;" href="https://forms.office.com/pages/responsepage.aspx?id=uUljdRAGAUuReypKwQ35R2CApLbEsrxGtq2OYGzc8xlUQkVMSFVGMjZQNlc4TE9LUEhHQTlNVkJaRiQlQCN0PWcu" target="_blank">
+                            <i class="fa-solid fa-pencil fa-5x"></i>
+                        </a>
+                      </div>
+                      <div class="carousel-item slide-block">
+                        <h1>Study Spots</h1>
+                        <a style="color: white;" href=""><i class="fa-solid fa-building-columns fa-5x"></i></a>
+                      </div>
+                      <div class="carousel-item slide-block">
+                        <h1>Food Spots</h1>
+                        <a style="color: white;" href=""><i class="fa-solid fa-burger fa-5x"></i></a>
+                      </div>
+                      <div class="carousel-item slide-block">
+                        <h1>Constitution</h1>
+                        <a style="color: white;" href="./constitution.pdf" target="_blank"><i class="fa-solid fa-scroll fa-5x"></i></a>
+
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
 
             </div>  
 
@@ -405,6 +422,8 @@
 
             <!-- Copyright -->
             <p>Copyright &#169 2022</p>
+
+
         </main>
     </body>
 </html>
